@@ -1,8 +1,9 @@
 body {
   background-color: #efeee7;
   font-family: "Georgia",Times New Roman,Times,serif;
-  color: #333333
-
+  color: #333333;
+  font-size: 18px;
+  line-height: 150%;
 }
 
 body {
@@ -11,12 +12,16 @@ body {
 }
 header {
     background-color: #333333;
-
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 h1 {
     color: #eee;
     font-size: 28px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 
 }
 
@@ -36,17 +41,17 @@ h2 {
 }
 #bio-image {
     width: 200px;
-    margin: 1;
+    margin-right: 20px;
 
 }
 #main-bio {
     width: 70%;
 
 }
-#content-info {
+#contact-info {
     width: 30%;
-    line-height: 36px;
+    line-height: 30px;
 }
-li {
+a {
     color: #d21034;
 }
